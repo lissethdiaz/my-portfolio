@@ -41,7 +41,7 @@ header nav ul {
 }
 
 header nav ul li a {
-  margin: 0 30px;
+  padding: 10px 20px;
   font-size: 1.5vw;
 }
 
@@ -66,6 +66,7 @@ section {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    align-items: flex-start;
   }
 
 .hero-text {
@@ -81,13 +82,12 @@ section {
 }
 
 .section-title {
-  font-size: 40px;
+  font-size: 45px;
   padding-bottom: 25px;
   margin: 0 auto 30px auto;
   text-align: center;
   width: 50%;
 }
-
 
 .intro img {
   width: 30%;
@@ -98,6 +98,9 @@ section {
 .intro p {
   line-height: 1.5;
   text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 
 .websites {
@@ -106,6 +109,7 @@ section {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+  text-align: center;
 }
 
 .website {
@@ -124,15 +128,59 @@ section {
 }
 
 .contact {
-
+  text-align: center;
 }
 
 .flex {
   display: flex;
 }
 
+@media screen and (max-width: 980px) {
+  header {
+    padding-bottom: 12px;
+    justify-content: center;
+  }
 
+  header h1 {
+    width: 100%;
+    text-align: center;
+  }
 
+  header nav ul {
+    margin-top: 15px;
+    width: 100%;
+    justify-content: center;
+  }
 
+  header nav ul li a {
+    font-size: 20px;
+  }
 
+  .section-title {
+    width: 75%;
+  }
 
+  .website {
+    flex: 0 70%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  section {
+    padding: 30px 15px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .section-title {
+    width: 90%;
+  }
+
+  .intro p {
+    width: 100%;
+  }
+
+  .website {
+    flex: 0 100%;
+  }
+}
