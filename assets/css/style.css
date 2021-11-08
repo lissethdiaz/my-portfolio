@@ -9,6 +9,7 @@ body {
   color: black;
 }
 
+/* Header styles begins*/
 header {
   padding: 30px 35px;
   background-color: rgb(43, 54, 29);
@@ -44,6 +45,7 @@ header nav ul li a {
   padding: 10px 20px;
   font-size: 1.5vw;
 }
+/* Ends */
 
 footer {
   background: rgb(43, 54, 29);
@@ -59,6 +61,7 @@ section {
   padding: 40px;
 }
 
+/* Hero image styles begins */
 .hero-image {
     background-image: url('../images/cover-photo.jpg');
     background-size: cover;
@@ -75,6 +78,7 @@ section {
     text-align: center;
     margin: 150px;
 }
+/* Hero styles ends*/
 
 .border {
   border-color:rgb(43, 54, 29);
@@ -88,7 +92,7 @@ section {
   text-align: center;
   width: 50%;
 }
-
+/* About Me styles*/
 .intro img {
   max-width: 20%;
   height: auto;
@@ -105,6 +109,7 @@ section {
   justify-content: space-around;
 }
 
+/* My Work styles*/
 .websites {
   width: 100%;
   margin: 0 auto;
@@ -129,13 +134,17 @@ section {
   padding: 10px;
 }
 
+/* Contact Me styles*/
 .contact {
   text-align: center;
 }
 
+/*Flex box styles*/
 .flex {
   display: flex;
 }
+
+/* Media queries*/
 
 @media screen and (max-width: 980px) {
   header {
