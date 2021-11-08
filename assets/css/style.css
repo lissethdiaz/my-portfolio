@@ -90,13 +90,15 @@ section {
 }
 
 .intro img {
-  width: 30%;
+  max-width: 20%;
+  height: auto;
   padding: 10px;
   border-radius: 50%;
 }
 
 .intro p {
   line-height: 1.5;
+  padding: 50px;
   text-align: center;
   display: flex;
   flex-wrap: wrap;
@@ -114,7 +116,7 @@ section {
 
 .website {
   position: relative;
-
+  padding: 20px 0;
 }
 
 .run-buddy img {
