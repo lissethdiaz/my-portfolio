@@ -16,6 +16,7 @@ header {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  position: -webkit-sticky;
 }
 
 header h1 {
@@ -124,13 +125,8 @@ section {
   padding: 20px 0;
 }
 
-.run-buddy img {
+.run-buddy img, .chrip img {
   width: 60%;
-  padding: 10px;
-}
-
-.website img {
-  width: 30%;
   padding: 10px;
 }
 
